@@ -1,0 +1,30 @@
+div{
+	text-align: center;
+
+}
+#fixed{
+	background: #eee;
+	position: fixed;
+	height: 100px;
+	width: 200px;
+	top: 0px;
+	left: 0px;
+	z-index: 1
+}
+#relative{
+	background: #eee;
+	position: relative;
+	width: 80%;
+	height: 50%;
+	left:200px;
+
+
+}
+#asbolute{
+	background: #999;
+	position: absolute;
+	height: 25%;
+	width:50%;
+	right:0;
+	bottom: 0;
+}
